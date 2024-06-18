@@ -29,7 +29,7 @@ const Dashboard: React.FC = () => {
         
 
 
-    },[])
+    },[userData?.id])
 
     if (loading) return <p>Loading...</p>;
     if (error) return <p>{error}</p>;
@@ -47,8 +47,6 @@ const Dashboard: React.FC = () => {
             status: status,
             user_id: userData?.id,
         };
-
-        console.log(updatedData)
 
         try {
             console.log('Submitting data:', updatedData); // Log the data being submitted

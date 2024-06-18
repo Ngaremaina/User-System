@@ -60,7 +60,7 @@ const Register: React.FC<DepartmentsProps> = ({departments}) => {
     <div className="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
       
       <form onSubmit={handleSubmit} className="space-y-6">
-      <h2 className="text-xl font-medium text-gray-900 dark:text-white">Sign Up on our PLatform</h2>
+      <h2 className="text-xl font-medium text-gray-900 dark:text-white">Sign Up on our Platform</h2>
         <div>
           <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username:</label>
           <input
@@ -125,9 +125,9 @@ const Register: React.FC<DepartmentsProps> = ({departments}) => {
               name="is_manager"
               checked={formData.is_manager}
               onChange={handleChange}
+              
              
-            />
-            Manager
+            />  Manager
           </label>
         </div>
         <button type="submit" className="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button>
