@@ -88,4 +88,4 @@ Welcome to the Company Task Management System! This system allows efficient mana
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the Apache License - see the LICENSE file for details.
